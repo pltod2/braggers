@@ -1,10 +1,10 @@
 # Braggers
 
+## Helps the best ideas happen faster!
+
 ![Academy Poster](img/braggers_logo.png)
 
-**Helps the best ideas happen faster!**
 
-One Project For The First Edition Of Axway's Node.js Training
 
 # Brief Description
 
