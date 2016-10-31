@@ -1,9 +1,8 @@
 # Braggers
 
-## Helps the best ideas happen faster!
-
 ![Academy Poster](img/braggers_logo.png)
 
+### Helps the best ideas happen faster!
 
 
 # Brief Description
