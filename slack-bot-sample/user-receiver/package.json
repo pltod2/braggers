@@ -1,0 +1,10 @@
+{
+  "name": "user-receiver",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
