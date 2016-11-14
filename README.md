@@ -2,27 +2,31 @@
 
 ![Academy Poster](img/braggers_logo.png)
 
-### Helps the best ideas happen faster!
+Allow users that praticipate in trainings to collaborate with their lectors and peers. 
+
+Brag and help the best ideas happen faster!
 
 
-# Brief Description
+# Platform In Brief
 
-Platform for doing hands-on trainings. It will facilitate any training endeavors and will be used for collaboration between students. The platform will allow tracking/showcasing projects developed during such trainings. The broader vision is that the platform will allow third parties like Universities, Investment and Other Companies to see and select best ideas/projects that they want to directly support/fund/use in one way or another. So the platform will close the gap between Students, Universities, and Businesses.
+Platform for doing hands-on trainings. 
 
-# Backlog
+Facilitate any training endeavors.
 
-- [ ] Users Management - CRUD Users
+Catalog with user profiles:
 
-- [ ] Trainings Management  - CRUD Trainings
+> github repos
 
-- [ ] Projects Management  - CRUD Projects
+> taken trainings etc.
 
-- [ ] User Types - each user must have type like Student / University or Business representative
+> user activity stream
 
-- [ ] Discussion Forum
+Collaboration between students
 
-More to come...
+Social aspect:
+
+> blog posts 
+
+> creation of categories / topics / forum posts  
 
 
-
- 
