@@ -1,10 +1,10 @@
 const path = require('path');
-const staticFolderName = 'static';
+const staticFolderName = 'app/server/express/static';
 
 module.exports = {
   context: __dirname,
   entry: {
-    app: './boot.js'
+    app: './app/ui/boot.js'
   },
   output: {
     path: path.resolve(__dirname, staticFolderName),
