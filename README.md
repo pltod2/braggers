@@ -1,6 +1,6 @@
 # Braggers
 
-![Academy Poster](img/braggers_logo.png)
+![Academy Poster](static/img/braggers_logo.png)
 
 Allow users that praticipate in trainings to collaborate with their lectors and peers. 
 
