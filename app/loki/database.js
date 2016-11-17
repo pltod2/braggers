@@ -11,7 +11,7 @@ return {
     insertMany: insertMany,
     insertOne: insertOne,
     findAll: findAll,
-    removeAAll: removeAll,
+    removeAll: removeAll,
     removeOne: removeOne,
 }
 
