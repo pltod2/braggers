@@ -1,7 +1,8 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
-import App from "./app";
+require("../themes-catalog/one");
+import App from "./braggers";
 
 ReactDOM.render(
     <App />,
