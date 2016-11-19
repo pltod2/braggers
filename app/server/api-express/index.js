@@ -1,5 +1,7 @@
 const express = require('express');
 const app = express();
+
+//THE APP
 const braggers = require('../../config/braggers');
 
 app.get('/getAllUsers', function (req, res) {

@@ -2,7 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 
 const nodeModulesFolderName = 'node_modules';
-const staticFolderName = 'app/server/express/static';
+const staticFolderName = 'app/server/static';
 
 //Note that if the correct NODE_ENV is set in Jenkins job we could default to Development here 
 const ENV = process.env.NODE_ENV || "Production";
