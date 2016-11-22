@@ -1,0 +1,37 @@
+.headline {
+    font-size: 70px;
+    font-family: Roboto,"Source Sans Pro",source-sans-pro,Helvetica,Arial,sans-serif;
+    color: white;
+    padding-top: 100px;
+}
+
+.startFreeFormField {
+    width: 268px;
+    max-width: 81.21212%;
+    margin: 0;
+    padding-left: 1.63636%;
+    border: 0 solid transparent;
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #898989;
+    font-size: 18px;
+    font-weight: 400;
+    height: 37px;
+}
+
+.startFreeBtn { 
+    width: 54px;
+    max-width: 16.36364%;
+    margin: 0 0 0 2.12121%;
+    border: 0 solid transparent;
+    background: #ca2127 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    height: 37px;
+    align-items: flex-start;
+    text-align: center;
+    margin-top: 10px;    
+}
