@@ -1,0 +1,13 @@
+.item-action {
+    color: white;
+    text-decoration: none;
+    margin-right: 6px;
+}
+
+.item-action:visited {
+    color: white;
+}
+
+a.item-action:hover {
+    color: wheat;
+}

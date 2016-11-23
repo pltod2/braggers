@@ -1,0 +1,50 @@
+.navigation {
+    border-bottom: 1px solid #FFA000;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #E0E0E0;
+}
+
+li a.active {
+    color: #ffffff;
+    background-color: #C62828;
+}
+
+.leftMenu {
+    float: left;
+}
+
+.rightMenu {
+    float: right;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
