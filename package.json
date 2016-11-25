@@ -3,8 +3,6 @@
   "version": "1.0.0",
   "description": "One Project For The First Edition Of Axway's Node.js Training",
   "scripts": {
-    "build-ui": "webpack --watch",
-    "dev-server": "webpack-dev-server",
     "express": "node app/server/express",
     "test": "node test/example"
   },
@@ -32,7 +30,14 @@
     "normalize.css": "5.0.0",
     "object-assign": "^4.1.0",
     "react": "15.4.0",
-    "react-dom": "15.4.0"
+    "react-dom": "15.4.0",
+    "chalk": "^1.1.3",
+    "clear": "0.0.1",
+    "commander": "^2.9.0",
+    "express": "^4.14.0",
+    "figlet": "^1.2.0",
+    "lokijs": "^1.4.1",
+    "octonode": "^0.7.6"    
   },
   "devDependencies": {
     "babel-core": "6.18.2",

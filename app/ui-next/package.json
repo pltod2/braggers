@@ -1,0 +1,17 @@
+{
+  "name": "ui-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.2",
+    "lokijs": "^1.4.1",
+    "lowdb": "^0.14.0",
+    "next": "^1.1.2"
+  }
+}
