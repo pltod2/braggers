@@ -1,7 +1,7 @@
 import React from 'react'
 import posts from '../data/posts'
-const p = require('../data/p.json');
-console.log(p);
+//const p = require('../data/p.json');
+//console.log(p);
 import { style } from 'next/css'
 import Link from 'next/link'
 import * as  _ from 'lodash'
@@ -13,15 +13,15 @@ export default class extends React.Component {
     return { posts: posts }
   }
 
-  componentDidMount() {
-    db.defaults({ posts: [] })
-      .value()
+  // componentDidMount() {
+  //   db.defaults({ posts: [] })
+  //     .value()
 
-    // Data is automatically saved to localStorage
-    db.get('posts')
-      .push({ title: 'lowdb' })
-      .value()  
-  }
+  //   // Data is automatically saved to localStorage
+  //   db.get('posts')
+  //     .push({ title: 'lowdb' })
+  //     .value()  
+  // }
 
   render () {
     return (

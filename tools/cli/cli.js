@@ -4,6 +4,7 @@ var figlet = require('figlet');
 var program = require('commander');
 
 clear();
+
 console.log(
     chalk.yellow(
         figlet.textSync('Braggers', { horizontalLayout: 'full' })

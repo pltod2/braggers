@@ -1,9 +1,7 @@
 var github = require('octonode');
 var tokens = require(('./tokens.js'));
-var client = github.client({
-    username: tokens.githubUsername,
-    password: tokens.githubPassword
-});
+var client = github.client(tokens.githubToken);
+
 var ghsearch = client.search();
 
 module.exports = {

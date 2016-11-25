@@ -1,5 +1,5 @@
-var slack = require('../integration/slack');
-var github = require('../integration/github');
+var slack = require('../../integration/slack');
+var github = require('../../integration/github');
 var writer = require('./reader-writer');
 
 function getAllUsers(callback) {
