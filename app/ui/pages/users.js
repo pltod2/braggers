@@ -1,16 +1,20 @@
 import React from 'react'
-import posts from '../data/posts'
-//const p = require('../data/p.json');
-//console.log(p);
+//import posts from '../data/posts'
+import users from '../data/users'
+
+
+import low from 'lowdb'
+const db = low('db')
+console.log(db);
+
 import { style } from 'next/css'
 import Link from 'next/link'
 import * as  _ from 'lodash'
-import low from 'lowdb'
-const db = low('lowdb1')
+
 
 export default class extends React.Component {
   static getInitialProps () {
-    return { posts: posts }
+    return { users: users }
   }
 
   // componentDidMount() {
@@ -27,22 +31,24 @@ export default class extends React.Component {
     return (
       <div>
       <div className={style(styles.header)}>
-        <h3> NEXTHRONE - THE REVELATION OF GAME OF THRONES' CHARACTERS </h3>
+        <h3> AXWAY ACADEMY SOCIAL NETWORK </h3>
       </div>
       <table className={style(styles.table)}>
         <thead>
           <tr>
-              <th className={style(styles.th)}>Character</th>
               <th className={style(styles.th)}>Real Name</th>
+              <th className={style(styles.th)}>Social Index</th>
+              <th className={style(styles.th)}>Nickname</th>
           </tr>
         </thead>
         <tbody>
           {
-              this.props.posts.map( (post, i) => (
+              this.props.users.map( (user, i) => (
                   <tr key={i}>
-                      <td className={style(styles.td)}>{ post.codeName }</td>
+                      <td className={style(styles.td)}>{ user.firstName + ' ' + user.lastName }</td>
+                      <td className={style(styles.td)}>{ user.githubFollowers }</td>
                       <td className={style(styles.td)}>
-                        <Link href={`/account?id=${post.id}`}>{ post.realName }</Link>
+                        <Link href={`/account?id=${user.githubUsername}`}>{ user.githubUsername }</Link>
                       </td>
                   </tr>
               ))

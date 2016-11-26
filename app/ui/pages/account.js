@@ -1,33 +1,28 @@
 import React from 'react'
-import posts from '../data/posts'
+//import posts from '../data/posts'
+import users from '../data/users'
 import { style } from 'next/css'
 import * as  _ from 'lodash'
 
 export default ({ url: { query: { id } } }) => {
-  const item =  _.find(posts, { id: id })
+  const item =  _.find(users, { githubUsername: id })
 
   return (
     <div className={style(styles.main)}>
       <div className={style(styles.header)}>
-        <h3> NEXTHRONE - THE REVELATION OF GAME OF THRONES' CHARACTERS </h3>
+        <h3> AXWAY ACADEMY SOCIAL NETWORK </h3>
       </div>
       <div className={style(styles.panel)}>
         <h1 className={style(styles.heading)}>
-          Character: { item.codeName }
+          Character: { item.githubUsername }
           <br/>
           <br/>
-          Real Name: { item.realName }
-          <br/>
-          <br/>
-          Brief Description:
-          <br/>
-          <br/>
-          <span> { item.story } </span>
+          Real Name: { item.firstName }
         </h1>
       </div>
 
       <div className={style(styles.singlePhoto)}>
-        <img src={ item.display_src} alt={item.realName} width={500} height={500} />
+        <img src={ item.githubAvatar} alt={item.firstName} width={500} height={500} />
       </div>
     </div>
   )
@@ -47,13 +42,13 @@ const styles = {
   panel: {
     float: 'right',
     marginRight: '140px',
-    width: '300px'
+    width: '200px'
   },
 
   singlePhoto: {
     border: '1px solid #999',
-    width: '500px',
-    height: '500px',
+    width: '300px',
+    height: '300px',
     float: 'left'
   },
 

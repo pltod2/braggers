@@ -1,15 +1,17 @@
-{
-    "slackId": "U2W796SVD",
-    "slackUsername": "dobry.dobrev",
-    "slackEmail": "ddobrev@axway.com",
-    "firstName": "Dobri",
-    "lastName": "Dobrev",
-    "githubUsername": "dobrydobrev",
-    "githubAvatar": "https://avatars.githubusercontent.com/u/10089887?v=3",
-    "location": "Sofia, Bulgaria",
-    "githubRepos": [],
-    "githubFollowers": 0
-}{
+const users = [
+    {
+        "slackId": "U2W796SVD",
+        "slackUsername": "dobry.dobrev",
+        "slackEmail": "ddobrev@axway.com",
+        "firstName": "Dobri",
+        "lastName": "Dobrev",
+        "githubUsername": "dobrydobrev",
+        "githubAvatar": "https://avatars.githubusercontent.com/u/10089887?v=3",
+        "location": "Sofia, Bulgaria",
+        "githubRepos": [],
+        "githubFollowers": 0
+    },
+    {
     "slackId": "U2WGTCVUY",
     "slackUsername": "emil.ruzhenov",
     "slackEmail": "emil.ruzhenov@gmail.com",
@@ -69,7 +71,7 @@
         }
     ],
     "githubFollowers": 1
-}{
+    },{
     "slackId": "U2VT0282G",
     "slackUsername": "mvasilev",
     "slackEmail": "mvasilev@axway.com",
@@ -99,7 +101,7 @@
         }
     ],
     "githubFollowers": 4
-}{
+    },{
     "slackId": "U2VFNHF0R",
     "slackUsername": "ngeorgieva",
     "slackEmail": "nat.m.georgieva@gmail.com",
@@ -159,4 +161,6 @@
         }
     ],
     "githubFollowers": 0
-}
+}];
+
+module.exports = users

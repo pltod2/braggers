@@ -1,6 +1,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import Head from 'next/head';
+import Link from 'next/link'
 
 // import compStyles from '../styles/index.css';
 // const classStyles = compStyles.locals; 
@@ -52,7 +53,7 @@ export default class App extends React.Component {
             <div className="row center-xs">
                 <div className="col-xs-3">
                     <input name="email" type="text" placeholder="your email" />
-                    <button onClick={this.props.loginHandler} name="startFreeBTN" type="submit">S T A R T</button>
+                    <button onClick={this.props.loginHandler} name="startFreeBTN" type="submit"><Link href={`/users`}>S T A R T</Link></button>
                 </div>
             </div>
         </div> 
