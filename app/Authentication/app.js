@@ -16,8 +16,8 @@ var app = express();
 var transporter = nodemailer.createTransport(smtpTransport({
    service: "Gmail", 
    auth: {
-       user: "projectbraggers@gmail.com",
-       pass: "braggers123"
+       user: "user@gmail.com",
+       pass: "password"
    }
 }));
 
@@ -32,7 +32,7 @@ passwordless.addDelivery(
             + host + '?token=' + tokenToSend + '&uid=' 
             + encodeURIComponent(uidToSend), 
             from:    "projectbraggers@gmail.com", 
-            to:      "alexzk95@gmail.com", //just for testing
+            to:      "anotheruser@gmail.com", //just for testing
             subject: 'Successful registration in Braggers'
         }, function(err, response) { 
             if(err) {
