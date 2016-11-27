@@ -9,9 +9,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.2",
-    "lokijs": "^1.4.1",
-    "lowdb": "^0.14.0",
-    "next": "^1.1.2"
+    "draft-js": "0.9.1",
+    "draft-js-mention-plugin": "2.0.0-beta7",
+    "draft-js-plugins-editor": "2.0.0-beta7",
+    "draftjs-md-converter": "0.1.0",
+    "lodash": "4.17.2",
+    "lokijs": "1.4.1",
+    "lowdb": "0.14.0",
+    "next": "1.1.2",
+    "react-markdown": "2.4.2"
   }
 }

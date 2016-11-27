@@ -38,6 +38,7 @@ export default class App extends React.Component {
                 <link rel="stylesheet" href="../static/css/normalize.css"/>
                 <link rel="stylesheet" href="../static/css/flexboxgrid.min.css"/>
                 <link rel="stylesheet" href="../static/css/font-awesome.min.css"/>
+                <link rel="stylesheet" href="../static/css/plugin.css"/>
             </Head>
             <div className="row center-xs">
                 <div className="col-xs-6">
