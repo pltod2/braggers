@@ -12,5 +12,5 @@ console.log(
 
 program.version('0.0.1')
     .command('e', 'Extracts all users from a Slack channel and gets their details from Github')
-    .command('db', 'Exports the braggers database.')
+    .command('u', 'Updates the database with new users from Slack.')
     .parse(process.argv);
