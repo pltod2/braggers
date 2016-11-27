@@ -1,4 +1,5 @@
 tokens.js
+tokens.json
 .DS_Store
 *.bundle.js 
 .vscode
