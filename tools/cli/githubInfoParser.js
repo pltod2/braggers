@@ -1,4 +1,4 @@
-var github = require('./github');
+var github = require('../../integration/github');
 
 module.exports = function (element, callback) {
     function user(slackId, slackUsername, slackEmail) {

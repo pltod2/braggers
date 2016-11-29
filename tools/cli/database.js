@@ -1,5 +1,5 @@
 var loki = require('lokijs');
-var db = new loki('braggers.json');
+var db = new loki('app/service/db/braggers.json');
 var users = db.addCollection('users');
 
 module.exports = {

@@ -1,6 +1,9 @@
 var github = require('octonode');
-var tokens = require(('./tokens.js'));
-var client = github.client(tokens.githubToken);
+var tokens = require('../../../tokens.js');
+if (!tokens.github.token) {
+  console.log('Please specify your token!')
+}
+var client = github.client(tokens.github.token);
 
 var ghsearch = client.search();
 

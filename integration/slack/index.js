@@ -1,7 +1,9 @@
 var WebClient = require('@slack/client').WebClient;
-var tokens = require(('./tokens.js'));
-var token = tokens.slackApiToken || '';
-var web = new WebClient(token);
+var tokens = require(('../../../tokens.js'));
+if (!tokens.slack.token) {
+  console.log('Please specify your token!')
+}
+var web = new WebClient(tokens.slack.token);
 
 module.exports = {
   users: users
