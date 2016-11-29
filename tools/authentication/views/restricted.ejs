@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='/stylesheets/style.css' type='text/css'>
+  </head>
+  <body>
+    <h1>Only registered users!</h1>
+    <p>
+    User: 
+    <% if(user) { %>
+    	<%= user %> (<a href='/logout'>logout</a>)
+    <% } else { %>
+    	Not logged in
+    <% } %>
+    </p>
+    <p>
+    Test to see if users who are not authenticated can see this page.
+    </p>
+    <ul>
+      <li>
+        <a href='/'>Back to homepage</a>
+      </li>
+      <li>
+        <a href='/login'>Login / Register</a>
+      </li>
+    </ul>
+  </body>
+</html>
