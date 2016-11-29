@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "One Project For The First Edition Of Axway's Node.js Training",
   "scripts": {
-    "express": "node app/server/express",
-    "test": "node test/example"
+    "express": "node deployment/express",
+    "test": "node test/example",
+    "start-cli": "node tools/cli/cli.js"
   },
   "repository": {
     "type": "git",
