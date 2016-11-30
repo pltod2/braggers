@@ -9,6 +9,7 @@ var LokiJSStore = require('passwordless-lokijsstore');
 var nodemailer   = require('nodemailer');
 var routes = require('./routes/index');
 var smtpTransport = require("nodemailer-smtp-transport");
+var tokens = require('../../../tokens');
 
 var app = express();
 
@@ -17,8 +18,8 @@ var transporter = nodemailer.createTransport(smtpTransport({
    service: "Gmail", 
    debug: true,
    auth: {
-       user: "projectbraggers@gmail.com",
-       pass: "Braggers1234"
+       user: tokens.gmail.user,
+       pass: tokens.gmail.pass
    }
 }));
 
@@ -32,8 +33,8 @@ passwordless.addDelivery(
             text:    'Hello!\n You can access your account here: http://' 
             + host + '?token=' + tokenToSend + '&uid=' 
             + encodeURIComponent(uidToSend), 
-            from:    "projectbraggers@gmail.com", 
-            to:      "ptodorov@axway.com", //just for testing
+            from:    tokens.gmail.user, 
+            to:      tokens.gmail.testReciever,
             subject: 'Successful registration in Braggers'
         }, function(err, response) { 
             if(err) {
