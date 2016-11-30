@@ -1,14 +1,19 @@
 var slack = require('../../integration/slack');
 var github = require('../../integration/github');
 var writer = require('./reader-writer');
-var db = require('./database');
 var githubInfoParser = require('./githubInfoParser');
 
-function getAllUsers(callback) {
+require('../../integration/loki')({
+    location: 'app/service/db/braggers.json',
+    existing: false,
+    callback: execute
+});
+
+function execute(db) {
+    slack.users(processSlackData);
 
     function processSlackData(data) {
         var filteredUserArr = data.members.filter(isNotABot);
-        //console.log(filteredUserArr);
         filteredUserArr.forEach(getGithubInfoAndParse);
     }
 
@@ -21,10 +26,6 @@ function getAllUsers(callback) {
     }
 
     function getGithubInfoAndParse(user){
-        githubInfoParser(user, callback);
+        githubInfoParser(user, db.insertUser);
     }
-
-    slack.users(processSlackData);
 }
-
-getAllUsers(db.insertUser);

@@ -1,25 +1,19 @@
 const express = require('express');
 const app = express();
+const cors = require('cors');
+app.use(cors());
 
-//This could be any other datasource even remote call
-const db = require('../../db/db.json');
+//Inject our functionality ... it could be reused into other containers
+require('../../app/service/api')((api) => {
 
-//THE APP
-// const braggers = require('../../config/braggers');
+  app.get('/getUsers', function (req, res) {
+    console.log(api);
+    res.send(api.getUsers());
+  });
 
-// app.get('/getAllUsers', function (req, res) {
-//   braggers.getAllUsers(function(data) {
-//     console.log(data.members.length)
-//     res.send(data.members);
-//   })
-// });
+  app.listen(8000, function () {
+    console.log('Example app listening on port 8000!');
+  });
 
-app.get('/getUsers', function (req, res) {
-  res.send(db.collections);
 });
 
-//app.use(express.static('static'));
-
-app.listen(8000, function () {
-  console.log('Example app listening on port 8000!');
-});

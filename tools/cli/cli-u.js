@@ -1,7 +1,10 @@
 var slack = require('../../integration/slack');
 var writer = require('./reader-writer');
 var github = require('../../integration/github');
-var db = require('./database');
+var db = require('../../integration/loki')({
+    location: 'app/service/db/braggers.json',
+    existing: true
+});
 var githubInfoParser = require('./githubInfoParser');
 
 function updateDatabase(saveUser) {

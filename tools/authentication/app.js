@@ -8,7 +8,7 @@ var passwordless = require('passwordless');
 var LokiJSStore = require('passwordless-lokijsstore');
 var nodemailer   = require('nodemailer');
 var routes = require('./routes/index');
-//var smtpTransport = require("nodemailer-smtp-transport");
+var smtpTransport = require("nodemailer-smtp-transport");
 
 var app = express();
 

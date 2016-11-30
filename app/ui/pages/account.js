@@ -1,14 +1,13 @@
 import React from 'react'
-//import posts from '../data/posts'
-import users from '../data/users'
 import { style } from 'next/css'
 import * as  _ from 'lodash'
 import MyEditor from '../component/editor/editor';
 import Head from 'next/head';
 const ReactMarkdown = require('react-markdown');
 
-export default ({ url: { query: { id } } }) => {
-  const item =  _.find(users, { githubUsername: id })
+export default ({ url: { query: { user } } }) => {
+  //const item =  _.find(users, { slackId: id })
+  console.log(user);
   const styles = {
     main: {
       padding: '50px'
@@ -81,10 +80,8 @@ export default ({ url: { query: { id } } }) => {
                       </div>
                       <div className="col-xs">
                         <h1 className={style(styles.heading)}>
-                          Character: { item.githubUsername }
+                            Real Name: { item.firstName }
                           <br/>
-                          <br/>
-                          Real Name: { item.firstName }
                         </h1>
                       </div>
                     </div>  
