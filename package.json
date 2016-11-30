@@ -8,7 +8,7 @@
     "test": "node test/example",
     "dev": "next",
     "build": "next build",
-    "start": "next start"    
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -33,22 +33,23 @@
     "clear": "0.0.1",
     "commander": "2.9.0",
     "cors": "2.8.1",
-    "express": "4.14.0",
-    "figlet": "1.2.0",
-    "flexboxgrid": "6.3.1",
-    "font-awesome": "4.7.0",
-    "lokijs": "1.4.1",
-    "normalize.css": "5.0.0",
-    "object-assign": "4.1.0",
-    "octonode": "0.7.6",
     "draft-js": "0.9.1",
     "draft-js-mention-plugin": "2.0.0-beta7",
     "draft-js-plugins-editor": "2.0.0-beta7",
     "draftjs-md-converter": "0.1.0",
+    "express": "4.14.0",
+    "figlet": "1.2.0",
+    "flexboxgrid": "6.3.1",
+    "font-awesome": "4.7.0",
     "isomorphic-fetch": "^2.2.1",
     "lodash": "4.17.2",
+    "lokijs": "1.4.1",
+    "milligram": "^1.2.0",
     "next": "1.1.2",
-    "react-markdown": "2.4.2"    
+    "normalize.css": "5.0.0",
+    "object-assign": "4.1.0",
+    "octonode": "0.7.6",
+    "react-markdown": "2.4.2"
   },
   "devDependencies": {}
 }

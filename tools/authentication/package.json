@@ -8,15 +8,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.15.2",
-    "cookie-parser": "~1.4.3",
-    "ejs": "~2.5.2",
-    "express": "~4.12.4",
-    "express-session": "^1.14.2",
-    "morgan": "~1.7.0",
-    "nodemailer": "0.7.1",
-    "nodemailer-smtp-transport": "^2.7.2",
-    "passwordless": "^1.1.2",
-    "passwordless-lokijsstore": "^1.0.1"
+    "body-parser": "1.15.2",
+    "cookie-parser": "1.4.3",
+    "ejs": "2.5.2",
+    "express": "4.12.4",
+    "express-session": "1.14.2",
+    "morgan": "1.7.0",
+    "nodemailer": "2.6.4",
+    "nodemailer-smtp-transport": "2.7.2",
+    "passwordless": "1.1.2",
+    "passwordless-lokijsstore": "1.0.1"
   }
 }

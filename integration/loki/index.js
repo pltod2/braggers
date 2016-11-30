@@ -19,7 +19,8 @@ module.exports = function(options) {
         updateCollectionWithNewUsers: updateCollectionWithNewUsers,
         findUserBySlackId: findUserBySlackId,
         getAllUsers: getAllUsers,
-        getUsers: getUsers
+        getUsers: getUsers,
+        getUserById: getUserById
     }
 
     function insertUser(user) {
@@ -48,5 +49,10 @@ module.exports = function(options) {
 
     function getUsers() {
         return db.getCollection('users').data;
+    }
+
+    function getUserById() {
+        return db.getCollection('users').data;
     }    
+        
 };

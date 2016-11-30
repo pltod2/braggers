@@ -30,17 +30,14 @@ passwordless.init(new LokiJSStore('tokens.json'));
 passwordless.addDelivery(
     function(tokenToSend, uidToSend, recipient, callback) {
            transporter.sendMail({
-            text:    'Hello!\n You can access your account here: http://' 
-            + host + '?token=' + tokenToSend + '&uid=' 
-            + encodeURIComponent(uidToSend), 
+            text:    'Hello!\n You can access your account here: ' + host + '?token=' + tokenToSend + '&uid=' + encodeURIComponent(uidToSend), 
             from:    tokens.gmail.user, 
             to:      tokens.gmail.testReciever,
-            subject: 'Successful registration in Braggers'
+            subject: 'Your access to Braggers'
         }, function(err, response) { 
             if(err) {
                 console.log(err);
             }
-            console.log(response);
             transporter.close();
           });
     });

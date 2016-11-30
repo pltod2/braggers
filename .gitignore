@@ -4,7 +4,8 @@ tokens.json
 *.bundle.js 
 .vscode
 gen
-.next 
+.next
+braggers_backup.json
 
 
 # Logs

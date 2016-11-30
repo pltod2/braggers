@@ -2,14 +2,14 @@ import React from 'react'
 import { style } from 'next/css'
 import * as  _ from 'lodash'
 import MyEditor from '../component/editor/editor';
-import Head from 'next/head';
+import Head from '../component/Head';
 const ReactMarkdown = require('react-markdown');
 import 'isomorphic-fetch'
 
 export default ({ url: { query: { id } } }) => {
 
   async function getUser() { 
-    const res = await fetch('http://localhost:8000/getUsersById', {
+    const res = await fetch('http://localhost:8000/getUserById', {
       method: "POST",
       headers: {
         'Accept': 'application/json, text/plain, text/html',
@@ -80,19 +80,7 @@ export default ({ url: { query: { id } } }) => {
 
       return (
           <div>
-                  <Head>
-                      <meta charSet="utf-8"/>
-                      <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-                      <title>B R A G G E R S - 2 0 1 6</title>
-                      <meta name="description" content=""/>
-                      <meta name="viewport" content="width=device-width, initial-scale=1"/>
-                      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"/>
-                      <link rel="stylesheet" href="../static/css/normalize.css"/>
-                      <link rel="stylesheet" href="../static/css/flexboxgrid.min.css"/>
-                      <link rel="stylesheet" href="../static/css/font-awesome.min.css"/>
-                      <link rel="stylesheet" href="../static/css/plugin.css"/>
-                  </Head>
-          
+            <Head />
                   <div>
                     <div className="row">
                       <div className="col-xs">

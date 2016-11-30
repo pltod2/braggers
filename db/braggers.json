@@ -1,22 +1,9 @@
 {
-    "filename": "app/service/db/braggers.json",
+    "filename": "db/braggers.json",
     "collections": [
         {
             "name": "users",
             "data": [
-                {
-                    "slackId": "U2SSS7QMR",
-                    "slackUsername": "anybot",
-                    "slackEmail": "trifonov.dev@gmail.com",
-                    "firstName": "Vladimir",
-                    "lastName": "Trifonov",
-                    "meta": {
-                        "revision": 0,
-                        "created": 1480461504086,
-                        "version": 0
-                    },
-                    "$loki": 1
-                },
                 {
                     "slackId": "U2VV5JGLS",
                     "slackUsername": "kkotova",
@@ -25,49 +12,23 @@
                     "lastName": "Kotova",
                     "meta": {
                         "revision": 0,
-                        "created": 1480461504087,
+                        "created": 1480525948108,
+                        "version": 0
+                    },
+                    "$loki": 1
+                },
+                {
+                    "slackId": "U2VL9DZ27",
+                    "slackUsername": "iva",
+                    "slackEmail": "iva.i.vasileva@gmail.com",
+                    "firstName": "Iva",
+                    "lastName": "Vasileva",
+                    "meta": {
+                        "revision": 0,
+                        "created": 1480525948110,
                         "version": 0
                     },
                     "$loki": 2
-                },
-                {
-                    "slackId": "U2VE5AP7X",
-                    "slackUsername": "alexandrina",
-                    "slackEmail": "alexandrinakarakehayova@gmail.com",
-                    "firstName": "Alexandrina",
-                    "lastName": "Karakehayova",
-                    "meta": {
-                        "revision": 0,
-                        "created": 1480461504088,
-                        "version": 0
-                    },
-                    "$loki": 3
-                },
-                {
-                    "slackId": "U2VJ84H34",
-                    "slackUsername": "mmzarkov",
-                    "slackEmail": "mmzarkov@gmail.com",
-                    "firstName": "Milan",
-                    "lastName": "Zarkov",
-                    "meta": {
-                        "revision": 0,
-                        "created": 1480461504089,
-                        "version": 0
-                    },
-                    "$loki": 4
-                },
-                {
-                    "slackId": "U359CS52N",
-                    "slackUsername": "krgeorgiev",
-                    "slackEmail": "krgeorgiev@axway.com",
-                    "firstName": "Krasen",
-                    "lastName": "Georgiev",
-                    "meta": {
-                        "revision": 0,
-                        "created": 1480461504109,
-                        "version": 0
-                    },
-                    "$loki": 5
                 },
                 {
                     "slackId": "U2VU7LDRC",
@@ -77,33 +38,72 @@
                     "lastName": "Chobanov",
                     "meta": {
                         "revision": 0,
-                        "created": 1480461504113,
+                        "created": 1480525948112,
+                        "version": 0
+                    },
+                    "$loki": 3
+                },
+                {
+                    "slackId": "U2VJ1EW8G",
+                    "slackUsername": "maria.karamatova",
+                    "slackEmail": "maria.karamatova@gmail.com",
+                    "firstName": "Maria",
+                    "lastName": "Karamatova",
+                    "meta": {
+                        "revision": 0,
+                        "created": 1480525948116,
+                        "version": 0
+                    },
+                    "$loki": 4
+                },
+                {
+                    "slackId": "U2VE5AP7X",
+                    "slackUsername": "alexandrina",
+                    "slackEmail": "alexandrinakarakehayova@gmail.com",
+                    "firstName": "Alexandrina",
+                    "lastName": "Karakehayova",
+                    "meta": {
+                        "revision": 0,
+                        "created": 1480525948123,
+                        "version": 0
+                    },
+                    "$loki": 5
+                },
+                {
+                    "slackId": "U2WC0T3E2",
+                    "slackUsername": "nellykolcheva",
+                    "slackEmail": "neli.kolcheva@abv.bg",
+                    "firstName": "Nelly",
+                    "lastName": "Kolcheva",
+                    "meta": {
+                        "revision": 0,
+                        "created": 1480525948125,
                         "version": 0
                     },
                     "$loki": 6
                 },
                 {
-                    "slackId": "U2VTR2GNS",
-                    "slackUsername": "meglena.lukanova",
-                    "slackEmail": "meglena.lukanova@gmail.com",
-                    "firstName": "Meglena",
-                    "lastName": "Lukanova",
+                    "slackId": "U2VDZPYBW",
+                    "slackUsername": "spand0x",
+                    "slackEmail": "e_nedkov97@abv.bg",
+                    "firstName": "Evgeni",
+                    "lastName": "Nedkov",
                     "meta": {
                         "revision": 0,
-                        "created": 1480461504113,
+                        "created": 1480525948203,
                         "version": 0
                     },
                     "$loki": 7
                 },
                 {
-                    "slackId": "U2VETNZEV",
-                    "slackUsername": "pltod",
-                    "slackEmail": "pl.todorov@gmail.com",
-                    "firstName": "Plamen",
-                    "lastName": "Todorov",
+                    "slackId": "U2WEVTVA7",
+                    "slackUsername": "tihomiraparichkova",
+                    "slackEmail": "tyhomiraparichkova@gmail.com",
+                    "firstName": "Tihomira",
+                    "lastName": "Parichkova",
                     "meta": {
                         "revision": 0,
-                        "created": 1480461504116,
+                        "created": 1480525948208,
                         "version": 0
                     },
                     "$loki": 8
@@ -116,62 +116,10 @@
                     "lastName": "Kupen",
                     "meta": {
                         "revision": 0,
-                        "created": 1480461504124,
+                        "created": 1480525948209,
                         "version": 0
                     },
                     "$loki": 9
-                },
-                {
-                    "slackId": "U2VDZPYBW",
-                    "slackUsername": "spand0x",
-                    "slackEmail": "e_nedkov97@abv.bg",
-                    "firstName": "Evgeni",
-                    "lastName": "Nedkov",
-                    "meta": {
-                        "revision": 0,
-                        "created": 1480461504125,
-                        "version": 0
-                    },
-                    "$loki": 10
-                },
-                {
-                    "slackId": "U2WC0T3E2",
-                    "slackUsername": "nellykolcheva",
-                    "slackEmail": "neli.kolcheva@abv.bg",
-                    "firstName": "Nelly",
-                    "lastName": "Kolcheva",
-                    "meta": {
-                        "revision": 0,
-                        "created": 1480461504125,
-                        "version": 0
-                    },
-                    "$loki": 11
-                },
-                {
-                    "slackId": "U2VS09G20",
-                    "slackUsername": "tpopov",
-                    "slackEmail": "t.popov94@gmail.com",
-                    "firstName": "Toshko",
-                    "lastName": "Popov",
-                    "meta": {
-                        "revision": 0,
-                        "created": 1480461504127,
-                        "version": 0
-                    },
-                    "$loki": 12
-                },
-                {
-                    "slackId": "U2VL9DZ27",
-                    "slackUsername": "iva",
-                    "slackEmail": "iva.i.vasileva@gmail.com",
-                    "firstName": "Iva",
-                    "lastName": "Vasileva",
-                    "meta": {
-                        "revision": 0,
-                        "created": 1480461504128,
-                        "version": 0
-                    },
-                    "$loki": 13
                 },
                 {
                     "slackId": "U32HN3NGK",
@@ -181,33 +129,85 @@
                     "lastName": "Zlatkov",
                     "meta": {
                         "revision": 0,
-                        "created": 1480461504129,
+                        "created": 1480525948212,
+                        "version": 0
+                    },
+                    "$loki": 10
+                },
+                {
+                    "slackId": "U2SSS7QMR",
+                    "slackUsername": "anybot",
+                    "slackEmail": "trifonov.dev@gmail.com",
+                    "firstName": "Vladimir",
+                    "lastName": "Trifonov",
+                    "meta": {
+                        "revision": 0,
+                        "created": 1480525948212,
+                        "version": 0
+                    },
+                    "$loki": 11
+                },
+                {
+                    "slackId": "U359CS52N",
+                    "slackUsername": "krgeorgiev",
+                    "slackEmail": "krgeorgiev@axway.com",
+                    "firstName": "Krasen",
+                    "lastName": "Georgiev",
+                    "meta": {
+                        "revision": 0,
+                        "created": 1480525948213,
+                        "version": 0
+                    },
+                    "$loki": 12
+                },
+                {
+                    "slackId": "U2VTR2GNS",
+                    "slackUsername": "meglena.lukanova",
+                    "slackEmail": "meglena.lukanova@gmail.com",
+                    "firstName": "Meglena",
+                    "lastName": "Lukanova",
+                    "meta": {
+                        "revision": 0,
+                        "created": 1480525948213,
+                        "version": 0
+                    },
+                    "$loki": 13
+                },
+                {
+                    "slackId": "U2VETNZEV",
+                    "slackUsername": "pltod",
+                    "slackEmail": "pl.todorov@gmail.com",
+                    "firstName": "Plamen",
+                    "lastName": "Todorov",
+                    "meta": {
+                        "revision": 0,
+                        "created": 1480525948216,
                         "version": 0
                     },
                     "$loki": 14
                 },
                 {
-                    "slackId": "U2WEVTVA7",
-                    "slackUsername": "tihomiraparichkova",
-                    "slackEmail": "tyhomiraparichkova@gmail.com",
-                    "firstName": "Tihomira",
-                    "lastName": "Parichkova",
+                    "slackId": "U2VS09G20",
+                    "slackUsername": "tpopov",
+                    "slackEmail": "t.popov94@gmail.com",
+                    "firstName": "Toshko",
+                    "lastName": "Popov",
                     "meta": {
                         "revision": 0,
-                        "created": 1480461504133,
+                        "created": 1480525948217,
                         "version": 0
                     },
                     "$loki": 15
                 },
                 {
-                    "slackId": "U2VJ1EW8G",
-                    "slackUsername": "maria.karamatova",
-                    "slackEmail": "maria.karamatova@gmail.com",
-                    "firstName": "Maria",
-                    "lastName": "Karamatova",
+                    "slackId": "U2VJ84H34",
+                    "slackUsername": "mmzarkov",
+                    "slackEmail": "mmzarkov@gmail.com",
+                    "firstName": "Milan",
+                    "lastName": "Zarkov",
                     "meta": {
                         "revision": 0,
-                        "created": 1480461504142,
+                        "created": 1480525948220,
                         "version": 0
                     },
                     "$loki": 16
@@ -225,7 +225,7 @@
                     "githubFollowers": 0,
                     "meta": {
                         "revision": 0,
-                        "created": 1480461505360,
+                        "created": 1480525949656,
                         "version": 0
                     },
                     "$loki": 17
@@ -268,77 +268,10 @@
                     "githubFollowers": 4,
                     "meta": {
                         "revision": 0,
-                        "created": 1480461505558,
+                        "created": 1480525949839,
                         "version": 0
                     },
                     "$loki": 18
-                },
-                {
-                    "slackId": "U2WGTCVUY",
-                    "slackUsername": "emil.ruzhenov",
-                    "slackEmail": "emil.ruzhenov@gmail.com",
-                    "firstName": "Emil",
-                    "lastName": "Ruzhenov",
-                    "githubUsername": "emilrr",
-                    "githubAvatar": "https://avatars.githubusercontent.com/u/10992680?v=3",
-                    "location": null,
-                    "githubRepos": [
-                        {
-                            "name": "Axway-Code-Examples",
-                            "url": "https://api.github.com/repos/emilrr/Axway-Code-Examples",
-                            "description": null,
-                            "language": "JavaScript"
-                        },
-                        {
-                            "name": "Axway-Final-Project",
-                            "url": "https://api.github.com/repos/emilrr/Axway-Final-Project",
-                            "description": null,
-                            "language": "JavaScript"
-                        },
-                        {
-                            "name": "imdb-scapper",
-                            "url": "https://api.github.com/repos/emilrr/imdb-scapper",
-                            "description": null,
-                            "language": "JavaScript"
-                        },
-                        {
-                            "name": "JavaScriptApplications",
-                            "url": "https://api.github.com/repos/emilrr/JavaScriptApplications",
-                            "description": "Homeworks and labs from this course",
-                            "language": "JavaScript"
-                        },
-                        {
-                            "name": "SoftUni-Advanced-Level-Front-end",
-                            "url": "https://api.github.com/repos/emilrr/SoftUni-Advanced-Level-Front-end",
-                            "description": null,
-                            "language": "JavaScript"
-                        },
-                        {
-                            "name": "SoftUni-Fundamental-Level",
-                            "url": "https://api.github.com/repos/emilrr/SoftUni-Fundamental-Level",
-                            "description": null,
-                            "language": "C#"
-                        },
-                        {
-                            "name": "TankCanvasGame",
-                            "url": "https://api.github.com/repos/emilrr/TankCanvasGame",
-                            "description": null,
-                            "language": "JavaScript"
-                        },
-                        {
-                            "name": "test",
-                            "url": "https://api.github.com/repos/emilrr/test",
-                            "description": null,
-                            "language": null
-                        }
-                    ],
-                    "githubFollowers": 1,
-                    "meta": {
-                        "revision": 0,
-                        "created": 1480461505578,
-                        "version": 0
-                    },
-                    "$loki": 19
                 },
                 {
                     "slackId": "U2VFNHF0R",
@@ -402,7 +335,74 @@
                     "githubFollowers": 0,
                     "meta": {
                         "revision": 0,
-                        "created": 1480461505582,
+                        "created": 1480525949884,
+                        "version": 0
+                    },
+                    "$loki": 19
+                },
+                {
+                    "slackId": "U2WGTCVUY",
+                    "slackUsername": "emil.ruzhenov",
+                    "slackEmail": "emil.ruzhenov@gmail.com",
+                    "firstName": "Emil",
+                    "lastName": "Ruzhenov",
+                    "githubUsername": "emilrr",
+                    "githubAvatar": "https://avatars.githubusercontent.com/u/10992680?v=3",
+                    "location": null,
+                    "githubRepos": [
+                        {
+                            "name": "Axway-Code-Examples",
+                            "url": "https://api.github.com/repos/emilrr/Axway-Code-Examples",
+                            "description": null,
+                            "language": "JavaScript"
+                        },
+                        {
+                            "name": "Axway-Final-Project",
+                            "url": "https://api.github.com/repos/emilrr/Axway-Final-Project",
+                            "description": null,
+                            "language": "JavaScript"
+                        },
+                        {
+                            "name": "imdb-scapper",
+                            "url": "https://api.github.com/repos/emilrr/imdb-scapper",
+                            "description": null,
+                            "language": "JavaScript"
+                        },
+                        {
+                            "name": "JavaScriptApplications",
+                            "url": "https://api.github.com/repos/emilrr/JavaScriptApplications",
+                            "description": "Homeworks and labs from this course",
+                            "language": "JavaScript"
+                        },
+                        {
+                            "name": "SoftUni-Advanced-Level-Front-end",
+                            "url": "https://api.github.com/repos/emilrr/SoftUni-Advanced-Level-Front-end",
+                            "description": null,
+                            "language": "JavaScript"
+                        },
+                        {
+                            "name": "SoftUni-Fundamental-Level",
+                            "url": "https://api.github.com/repos/emilrr/SoftUni-Fundamental-Level",
+                            "description": null,
+                            "language": "C#"
+                        },
+                        {
+                            "name": "TankCanvasGame",
+                            "url": "https://api.github.com/repos/emilrr/TankCanvasGame",
+                            "description": null,
+                            "language": "JavaScript"
+                        },
+                        {
+                            "name": "test",
+                            "url": "https://api.github.com/repos/emilrr/test",
+                            "description": null,
+                            "language": null
+                        }
+                    ],
+                    "githubFollowers": 1,
+                    "meta": {
+                        "revision": 0,
+                        "created": 1480525950005,
                         "version": 0
                     },
                     "$loki": 20
