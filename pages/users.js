@@ -1,53 +1,20 @@
 import React from 'react'
-//import posts from '../data/posts'
-import users from '../data/users'
 import { style } from 'next/css'
 import Link from 'next/link'
 import * as  _ from 'lodash'
 import Head from 'next/head';
 
 import 'isomorphic-fetch'
-//var request = require('request');
-
+const Requester = require('../integration/requester');
 
 export default class extends React.Component {
 
+  //Note that thanks to next.js users is exposed in props
   static async getInitialProps () {
-    const res = await fetch('http://localhost:8000/getUsers'); 
-    const users = await res.json();
-    //console.log(users);   
-    return { users: users }
+    //TODO getUsers comes from api and is common for server as well
+    const users = await Requester.get('getUsers');
+    return {users: users}
   }
-
-  // static getInitialProps () {
-  //   return { users: users }
-  // }
-
-  // getData = () => {
-  //     var main = this;
-  //     request.get('http://localhost:8000/getUsers', function(err, httpResponse, body){
-  //       console.log(body);
-  //         // main.setState({
-  //         //     users: JSON.parse(body)
-  //         // }); 
-  //     });
-  // }
-
-  // componentDidMount() {
-  //     var that = this;
-  //     this.getData();
-  // }
-  
-
-  // componentDidMount() {
-  //   db.defaults({ posts: [] })
-  //     .value()
-
-  //   // Data is automatically saved to localStorage
-  //   db.get('posts')
-  //     .push({ title: 'lowdb' })
-  //     .value()  
-  // }
 
   render () {
     console.log(this.props.users);
@@ -81,7 +48,7 @@ export default class extends React.Component {
               this.props.users.map( (user, i) => (
                   <tr key={i}>
                       <td className={style(styles.td)}>
-                        <Link href={`/account?user=${user}`}>{ user.slackId }</Link>
+                        <Link href={`/account?id=${user.$loki}`}>{ user.$loki }</Link>
                       </td>
                       <td className={style(styles.td)}>{ user.firstName + ' ' + user.lastName }</td>
                       <td className={style(styles.td)}>{ user.slackUsername }</td>

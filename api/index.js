@@ -2,8 +2,8 @@
 // Just normal functions in this case
 
 module.exports = function (callback) {
-    require('../../integration/loki')({
-        location: 'app/service/db/braggers.json',
+    require('../integration/loki')({
+        location: 'db/braggers.json',
         existing: true,
         callback: execute
     });

@@ -1,7 +1,6 @@
 var loki = require('lokijs');
 
 module.exports = function(options) {
-    //var db = new loki('app/service/db/braggers.json');
     const db = new loki(options.location);
     var users;
     if (options.existing) {

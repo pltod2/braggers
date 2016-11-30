@@ -4,7 +4,7 @@ var writer = require('./reader-writer');
 var githubInfoParser = require('./githubInfoParser');
 
 require('../../integration/loki')({
-    location: 'app/service/db/braggers.json',
+    location: 'db/braggers.json',
     existing: false,
     callback: execute
 });

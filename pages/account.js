@@ -4,10 +4,27 @@ import * as  _ from 'lodash'
 import MyEditor from '../component/editor/editor';
 import Head from 'next/head';
 const ReactMarkdown = require('react-markdown');
+import 'isomorphic-fetch'
 
-export default ({ url: { query: { user } } }) => {
-  //const item =  _.find(users, { slackId: id })
-  console.log(user);
+export default ({ url: { query: { id } } }) => {
+
+  async function getUser() { 
+    const res = await fetch('http://localhost:8000/getUsersById', {
+      method: "POST",
+      headers: {
+        'Accept': 'application/json, text/plain, text/html',
+        'Content-Type': 'application/json; charset=utf-8'
+      },      
+      body: JSON.stringify({ user: id }) 
+    });
+    console.log(res);
+  }
+
+  getUser(); 
+  
+  // const user = await res.json();
+  // return { item: user }
+
   const styles = {
     main: {
       padding: '50px'
@@ -43,7 +60,7 @@ export default ({ url: { query: { user } } }) => {
         this.state = {
           input: ''  
         }
-    }
+    }    
 
     onChangeHandler = (newValue) => {
       this.setState({
@@ -52,6 +69,14 @@ export default ({ url: { query: { user } } }) => {
     }
     
     render () {
+
+                      //   <img src={ item.githubAvatar} alt={item.firstName} width={200} height={200} />
+                      // </div>
+                      // <div className="col-xs">
+                      //   <h1 className={style(styles.heading)}>
+                      //       Real Name: { item.firstName }
+                      //     <br/>
+                      //   </h1>
 
       return (
           <div>
@@ -76,13 +101,7 @@ export default ({ url: { query: { user } } }) => {
                     </div>
                     <div className="row">
                       <div className="col-xs">
-                        <img src={ item.githubAvatar} alt={item.firstName} width={200} height={200} />
-                      </div>
-                      <div className="col-xs">
-                        <h1 className={style(styles.heading)}>
-                            Real Name: { item.firstName }
-                          <br/>
-                        </h1>
+
                       </div>
                     </div>  
                     <div className="row">
