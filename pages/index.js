@@ -9,6 +9,10 @@ export default class App extends React.Component {
         super(props);
     }
 
+    async loginHandler() {
+        const token = await Requester.post(endpoints.getTokenEnpoint);        
+    }
+
     render() {
         return <div>
             <Head />
@@ -23,9 +27,15 @@ export default class App extends React.Component {
                 </div>
             </div>
             <div className="row center-xs">
+                <Link href={`/users`}><button className="button" onClick={this.props.loginHandler} type="submit">Join for Free</button></Link>
+            </div>
+            <div className="row center-xs">
+                OR
+            </div>                
+            <div className="row center-xs">
                 <div className="col-xs-3">
-                    <input name="email" type="text" placeholder="click to enter email" />
-                    <Link href={`/users`}><button className="button" onClick={this.props.loginHandler} type="submit">join</button></Link>
+                    <input name="email" type="text" placeholder="enter email to enter" />
+                    <Link href={`/sendtoken`}><button className="button" onClick={this.props.loginHandler} type="submit">Admin Area</button></Link>
                 </div>
             </div>
         </div>

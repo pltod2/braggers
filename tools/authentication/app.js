@@ -23,7 +23,7 @@ var transporter = nodemailer.createTransport(smtpTransport({
    }
 }));
 
-var host = 'http://localhost:3000/';
+var host = 'http://localhost:3333/';
 
 // passwordless settings
 passwordless.init(new LokiJSStore('tokens.json'));
@@ -57,7 +57,7 @@ app.use(passwordless.sessionSupport());
 app.use(passwordless.acceptToken({ successRedirect: '/' }));
 
 app.use('/', routes);
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 3333);
 
 var server = app.listen(app.get('port'), function() {
   console.log('Express server listening on port ' + server.address().port);

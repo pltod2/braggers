@@ -1,6 +1,8 @@
 module.exports = {
     getUsersEndpoint: 'users',
     getUserByIdEndpoint: 'users/:userId',
-    getUserByIdEndpointClient: 'users/'
+    getUserByIdEndpointClient: 'users/',
+    restrictedEndpoint: 'restricted',
+    getTokenEnpoint: 'sendtoken'
 }
 

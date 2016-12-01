@@ -15,6 +15,7 @@ async function get(resourceLocation) {
 }
 
 async function post(resourceLocation, body) {
+    var body = body || {};
     const res = await fetch(serverLocation + resourceLocation, {
       method: "POST",
       headers: {
