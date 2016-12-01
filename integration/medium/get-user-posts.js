@@ -1,6 +1,6 @@
 var getJSON = require("get-json");
 
-module.exports = function (username, cb1) {
+module.exports = function (username, cb1, cb2) {
   var url = 'https://medium.com/@' + username + '/latest?format=json';
 
   getJSON(url, function (error, response) {
@@ -21,6 +21,6 @@ module.exports = function (username, cb1) {
       return cb1(err);
     }
 
-    cb1(postsUrls);
+    cb1(postsUrls, cb2);
   });
 }
