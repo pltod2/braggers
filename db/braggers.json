@@ -5,217 +5,266 @@
             "name": "users",
             "data": [
                 {
-                    "slackId": "U2VV5JGLS",
-                    "slackUsername": "kkotova",
-                    "slackEmail": "kotova.konstantina@gmail.com",
-                    "firstName": "Konstantina",
-                    "lastName": "Kotova",
+                    "slackId": "U2VJ84H34",
+                    "slackUsername": "mmzarkov",
+                    "slackEmail": "mmzarkov@gmail.com",
+                    "smallImg": "https://secure.gravatar.com/avatar/fa2eaf8896d6a96d3b47c61b75e361ca.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0016-32.png",
+                    "largeImg": "https://secure.gravatar.com/avatar/fa2eaf8896d6a96d3b47c61b75e361ca.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0016-192.png",
+                    "firstName": "Milan",
+                    "lastName": "Zarkov",
                     "meta": {
                         "revision": 0,
-                        "created": 1480525948108,
+                        "created": 1480581121334,
                         "version": 0
                     },
                     "$loki": 1
                 },
                 {
-                    "slackId": "U2VL9DZ27",
-                    "slackUsername": "iva",
-                    "slackEmail": "iva.i.vasileva@gmail.com",
-                    "firstName": "Iva",
-                    "lastName": "Vasileva",
+                    "slackId": "U2VJ1EW8G",
+                    "slackUsername": "maria.karamatova",
+                    "slackEmail": "maria.karamatova@gmail.com",
+                    "smallImg": "https://secure.gravatar.com/avatar/8cc803bacb11edf4e1e8808018f3206e.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0011-32.png",
+                    "largeImg": "https://secure.gravatar.com/avatar/8cc803bacb11edf4e1e8808018f3206e.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0011-192.png",
+                    "firstName": "Maria",
+                    "lastName": "Karamatova",
                     "meta": {
                         "revision": 0,
-                        "created": 1480525948110,
+                        "created": 1480581121336,
                         "version": 0
                     },
                     "$loki": 2
                 },
                 {
-                    "slackId": "U2VU7LDRC",
-                    "slackUsername": "vchobanov",
-                    "slackEmail": "viktor.chobanov10100@gmail.com",
-                    "firstName": "Viktor",
-                    "lastName": "Chobanov",
+                    "slackId": "U2VDZPYBW",
+                    "slackUsername": "spand0x",
+                    "slackEmail": "e_nedkov97@abv.bg",
+                    "smallImg": "https://secure.gravatar.com/avatar/4b1952f2d548892a51852f78808a1bd1.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0003-32.png",
+                    "largeImg": "https://secure.gravatar.com/avatar/4b1952f2d548892a51852f78808a1bd1.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0003-192.png",
+                    "firstName": "Evgeni",
+                    "lastName": "Nedkov",
                     "meta": {
                         "revision": 0,
-                        "created": 1480525948112,
+                        "created": 1480581121340,
                         "version": 0
                     },
                     "$loki": 3
                 },
                 {
-                    "slackId": "U2VJ1EW8G",
-                    "slackUsername": "maria.karamatova",
-                    "slackEmail": "maria.karamatova@gmail.com",
-                    "firstName": "Maria",
-                    "lastName": "Karamatova",
+                    "slackId": "U2VE5AP7X",
+                    "slackUsername": "alexandrina",
+                    "slackEmail": "alexandrinakarakehayova@gmail.com",
+                    "smallImg": "https://secure.gravatar.com/avatar/b45566c68a01f81e850931106d4827f2.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0011-32.png",
+                    "largeImg": "https://secure.gravatar.com/avatar/b45566c68a01f81e850931106d4827f2.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0011-192.png",
+                    "firstName": "Alexandrina",
+                    "lastName": "Karakehayova",
                     "meta": {
                         "revision": 0,
-                        "created": 1480525948116,
+                        "created": 1480581121344,
                         "version": 0
                     },
                     "$loki": 4
                 },
                 {
-                    "slackId": "U2VE5AP7X",
-                    "slackUsername": "alexandrina",
-                    "slackEmail": "alexandrinakarakehayova@gmail.com",
-                    "firstName": "Alexandrina",
-                    "lastName": "Karakehayova",
+                    "slackId": "U2VTR2GNS",
+                    "slackUsername": "meglena.lukanova",
+                    "slackEmail": "meglena.lukanova@gmail.com",
+                    "smallImg": "https://secure.gravatar.com/avatar/5a7895f3dc000b72d98e0065634b952e.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0021-32.png",
+                    "largeImg": "https://secure.gravatar.com/avatar/5a7895f3dc000b72d98e0065634b952e.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0021-192.png",
+                    "firstName": "Meglena",
+                    "lastName": "Lukanova",
                     "meta": {
                         "revision": 0,
-                        "created": 1480525948123,
+                        "created": 1480581121344,
                         "version": 0
                     },
                     "$loki": 5
                 },
                 {
-                    "slackId": "U2WC0T3E2",
-                    "slackUsername": "nellykolcheva",
-                    "slackEmail": "neli.kolcheva@abv.bg",
-                    "firstName": "Nelly",
-                    "lastName": "Kolcheva",
+                    "slackId": "U2WEVTVA7",
+                    "slackUsername": "tihomiraparichkova",
+                    "slackEmail": "tyhomiraparichkova@gmail.com",
+                    "smallImg": "https://avatars.slack-edge.com/2016-10-31/98516145603_41ee4b18a41a0378e4dc_32.jpg",
+                    "largeImg": "https://avatars.slack-edge.com/2016-10-31/98516145603_41ee4b18a41a0378e4dc_192.jpg",
+                    "firstName": "Tihomira",
+                    "lastName": "Parichkova",
                     "meta": {
                         "revision": 0,
-                        "created": 1480525948125,
+                        "created": 1480581121345,
                         "version": 0
                     },
                     "$loki": 6
                 },
                 {
-                    "slackId": "U2VDZPYBW",
-                    "slackUsername": "spand0x",
-                    "slackEmail": "e_nedkov97@abv.bg",
-                    "firstName": "Evgeni",
-                    "lastName": "Nedkov",
+                    "slackId": "U2VFQPVLY",
+                    "slackUsername": "djani",
+                    "slackEmail": "guldjan.kupen@gmail.com",
+                    "smallImg": "https://avatars.slack-edge.com/2016-10-28/97542896037_0c5b7ec9c48a7c1d6e16_32.jpg",
+                    "largeImg": "https://avatars.slack-edge.com/2016-10-28/97542896037_0c5b7ec9c48a7c1d6e16_192.jpg",
+                    "firstName": "Guldjan",
+                    "lastName": "Kupen",
                     "meta": {
                         "revision": 0,
-                        "created": 1480525948203,
+                        "created": 1480581121346,
                         "version": 0
                     },
                     "$loki": 7
                 },
                 {
-                    "slackId": "U2WEVTVA7",
-                    "slackUsername": "tihomiraparichkova",
-                    "slackEmail": "tyhomiraparichkova@gmail.com",
-                    "firstName": "Tihomira",
-                    "lastName": "Parichkova",
+                    "slackId": "U359CS52N",
+                    "slackUsername": "krgeorgiev",
+                    "slackEmail": "krgeorgiev@axway.com",
+                    "smallImg": "https://secure.gravatar.com/avatar/afce7ccb169bc7452a4104eade92583d.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0007-32.png",
+                    "largeImg": "https://secure.gravatar.com/avatar/afce7ccb169bc7452a4104eade92583d.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0007-192.png",
+                    "firstName": "Krasen",
+                    "lastName": "Georgiev",
                     "meta": {
                         "revision": 0,
-                        "created": 1480525948208,
+                        "created": 1480581121351,
                         "version": 0
                     },
                     "$loki": 8
                 },
                 {
-                    "slackId": "U2VFQPVLY",
-                    "slackUsername": "djani",
-                    "slackEmail": "guldjan.kupen@gmail.com",
-                    "firstName": "Guldjan",
-                    "lastName": "Kupen",
+                    "slackId": "U2SSS7QMR",
+                    "slackUsername": "anybot",
+                    "slackEmail": "trifonov.dev@gmail.com",
+                    "smallImg": "https://avatars.slack-edge.com/2016-11-04/99884227040_b7406b24a539ad32fb4f_32.png",
+                    "largeImg": "https://avatars.slack-edge.com/2016-11-04/99884227040_b7406b24a539ad32fb4f_192.png",
+                    "firstName": "Vladimir",
+                    "lastName": "Trifonov",
                     "meta": {
                         "revision": 0,
-                        "created": 1480525948209,
+                        "created": 1480581121354,
                         "version": 0
                     },
                     "$loki": 9
                 },
                 {
-                    "slackId": "U32HN3NGK",
-                    "slackUsername": "ogy",
-                    "slackEmail": "ozlatkov@axway.com",
-                    "firstName": "Ognyan",
-                    "lastName": "Zlatkov",
+                    "slackId": "U2VS09G20",
+                    "slackUsername": "tpopov",
+                    "slackEmail": "t.popov94@gmail.com",
+                    "smallImg": "https://secure.gravatar.com/avatar/bce68aed35986cf14e648a58de4229db.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0012-32.png",
+                    "largeImg": "https://secure.gravatar.com/avatar/bce68aed35986cf14e648a58de4229db.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0012-192.png",
+                    "firstName": "Toshko",
+                    "lastName": "Popov",
                     "meta": {
                         "revision": 0,
-                        "created": 1480525948212,
+                        "created": 1480581121354,
                         "version": 0
                     },
                     "$loki": 10
                 },
                 {
-                    "slackId": "U2SSS7QMR",
-                    "slackUsername": "anybot",
-                    "slackEmail": "trifonov.dev@gmail.com",
-                    "firstName": "Vladimir",
-                    "lastName": "Trifonov",
+                    "slackId": "U2VV5JGLS",
+                    "slackUsername": "kkotova",
+                    "slackEmail": "kotova.konstantina@gmail.com",
+                    "smallImg": "https://secure.gravatar.com/avatar/2c3b17a1cf1349a8a045215bff62d5d7.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0011-32.png",
+                    "largeImg": "https://secure.gravatar.com/avatar/2c3b17a1cf1349a8a045215bff62d5d7.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0011-192.png",
+                    "firstName": "Konstantina",
+                    "lastName": "Kotova",
                     "meta": {
                         "revision": 0,
-                        "created": 1480525948212,
+                        "created": 1480581121356,
                         "version": 0
                     },
                     "$loki": 11
                 },
                 {
-                    "slackId": "U359CS52N",
-                    "slackUsername": "krgeorgiev",
-                    "slackEmail": "krgeorgiev@axway.com",
-                    "firstName": "Krasen",
-                    "lastName": "Georgiev",
+                    "slackId": "U2VETNZEV",
+                    "slackUsername": "pltod",
+                    "slackEmail": "pl.todorov@gmail.com",
+                    "smallImg": "https://secure.gravatar.com/avatar/bd494533790f49d8b21ef4e93d3bd470.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0017-32.png",
+                    "largeImg": "https://secure.gravatar.com/avatar/bd494533790f49d8b21ef4e93d3bd470.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0017-192.png",
+                    "firstName": "Plamen",
+                    "lastName": "Todorov",
                     "meta": {
                         "revision": 0,
-                        "created": 1480525948213,
+                        "created": 1480581121357,
                         "version": 0
                     },
                     "$loki": 12
                 },
                 {
-                    "slackId": "U2VTR2GNS",
-                    "slackUsername": "meglena.lukanova",
-                    "slackEmail": "meglena.lukanova@gmail.com",
-                    "firstName": "Meglena",
-                    "lastName": "Lukanova",
+                    "slackId": "U2VL9DZ27",
+                    "slackUsername": "iva",
+                    "slackEmail": "iva.i.vasileva@gmail.com",
+                    "smallImg": "https://avatars.slack-edge.com/2016-11-02/99544760083_65dfae4b0b82924c62b1_32.jpg",
+                    "largeImg": "https://avatars.slack-edge.com/2016-11-02/99544760083_65dfae4b0b82924c62b1_72.jpg",
+                    "firstName": "Iva",
+                    "lastName": "Vasileva",
                     "meta": {
                         "revision": 0,
-                        "created": 1480525948213,
+                        "created": 1480581121358,
                         "version": 0
                     },
                     "$loki": 13
                 },
                 {
-                    "slackId": "U2VETNZEV",
-                    "slackUsername": "pltod",
-                    "slackEmail": "pl.todorov@gmail.com",
-                    "firstName": "Plamen",
-                    "lastName": "Todorov",
+                    "slackId": "U2VU7LDRC",
+                    "slackUsername": "vchobanov",
+                    "slackEmail": "viktor.chobanov10100@gmail.com",
+                    "smallImg": "https://avatars.slack-edge.com/2016-11-08/101016750193_7a187c57304e78e475c4_32.jpg",
+                    "largeImg": "https://avatars.slack-edge.com/2016-11-08/101016750193_7a187c57304e78e475c4_192.jpg",
+                    "firstName": "Viktor",
+                    "lastName": "Chobanov",
                     "meta": {
                         "revision": 0,
-                        "created": 1480525948216,
+                        "created": 1480581121363,
                         "version": 0
                     },
                     "$loki": 14
                 },
                 {
-                    "slackId": "U2VS09G20",
-                    "slackUsername": "tpopov",
-                    "slackEmail": "t.popov94@gmail.com",
-                    "firstName": "Toshko",
-                    "lastName": "Popov",
+                    "slackId": "U394AEZ37",
+                    "slackUsername": "pinko",
+                    "slackEmail": "trifonov.vp@gmail.com",
+                    "smallImg": "https://secure.gravatar.com/avatar/e17231b23f3044a68a016a0e576f8adb.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0024-32.png",
+                    "largeImg": "https://secure.gravatar.com/avatar/e17231b23f3044a68a016a0e576f8adb.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0024-192.png",
+                    "firstName": "",
+                    "lastName": "",
                     "meta": {
                         "revision": 0,
-                        "created": 1480525948217,
+                        "created": 1480581121364,
                         "version": 0
                     },
                     "$loki": 15
                 },
                 {
-                    "slackId": "U2VJ84H34",
-                    "slackUsername": "mmzarkov",
-                    "slackEmail": "mmzarkov@gmail.com",
-                    "firstName": "Milan",
-                    "lastName": "Zarkov",
+                    "slackId": "U2WC0T3E2",
+                    "slackUsername": "nellykolcheva",
+                    "slackEmail": "neli.kolcheva@abv.bg",
+                    "smallImg": "https://secure.gravatar.com/avatar/059fa0e805b63a3508569c1874164262.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0022-32.png",
+                    "largeImg": "https://secure.gravatar.com/avatar/059fa0e805b63a3508569c1874164262.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0022-192.png",
+                    "firstName": "Nelly",
+                    "lastName": "Kolcheva",
                     "meta": {
                         "revision": 0,
-                        "created": 1480525948220,
+                        "created": 1480581121365,
                         "version": 0
                     },
                     "$loki": 16
                 },
                 {
+                    "slackId": "U32HN3NGK",
+                    "slackUsername": "ogy",
+                    "slackEmail": "ozlatkov@axway.com",
+                    "smallImg": "https://secure.gravatar.com/avatar/b756857dd6807de48fa4dde190707954.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0012-32.png",
+                    "largeImg": "https://secure.gravatar.com/avatar/b756857dd6807de48fa4dde190707954.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0012-192.png",
+                    "firstName": "Ognyan",
+                    "lastName": "Zlatkov",
+                    "meta": {
+                        "revision": 0,
+                        "created": 1480581121373,
+                        "version": 0
+                    },
+                    "$loki": 17
+                },
+                {
                     "slackId": "U2W796SVD",
                     "slackUsername": "dobry.dobrev",
                     "slackEmail": "ddobrev@axway.com",
+                    "smallImg": "https://secure.gravatar.com/avatar/63989d5e384d7bd158d07ae1557a1848.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0014-32.png",
+                    "largeImg": "https://secure.gravatar.com/avatar/63989d5e384d7bd158d07ae1557a1848.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0014-192.png",
                     "firstName": "Dobri",
                     "lastName": "Dobrev",
                     "githubUsername": "dobrydobrev",
@@ -225,50 +274,7 @@
                     "githubFollowers": 0,
                     "meta": {
                         "revision": 0,
-                        "created": 1480525949656,
-                        "version": 0
-                    },
-                    "$loki": 17
-                },
-                {
-                    "slackId": "U2VT0282G",
-                    "slackUsername": "mvasilev",
-                    "slackEmail": "mvasilev@axway.com",
-                    "firstName": "Marin",
-                    "lastName": "Vasilev",
-                    "githubUsername": "marinvvasilev",
-                    "githubAvatar": "https://avatars.githubusercontent.com/u/17739230?v=3",
-                    "location": "Bulgaria, Sofia",
-                    "githubRepos": [
-                        {
-                            "name": "appc.googlesearch",
-                            "url": "https://api.github.com/repos/marinvvasilev/appc.googlesearch",
-                            "description": "Google custom search connector for Appcelerator Arrow",
-                            "language": "JavaScript"
-                        },
-                        {
-                            "name": "appc.oracledb",
-                            "url": "https://api.github.com/repos/marinvvasilev/appc.oracledb",
-                            "description": "Oracle Connector",
-                            "language": "JavaScript"
-                        },
-                        {
-                            "name": "appcelerator-githubauth",
-                            "url": "https://api.github.com/repos/marinvvasilev/appcelerator-githubauth",
-                            "description": "An authentication module for Appcelerator Arrow",
-                            "language": null
-                        },
-                        {
-                            "name": "appcelerator-saml",
-                            "url": "https://api.github.com/repos/marinvvasilev/appcelerator-saml",
-                            "description": "SAML Authentication for Appcelerator Arrow",
-                            "language": "JavaScript"
-                        }
-                    ],
-                    "githubFollowers": 4,
-                    "meta": {
-                        "revision": 0,
-                        "created": 1480525949839,
+                        "created": 1480581122629,
                         "version": 0
                     },
                     "$loki": 18
@@ -277,6 +283,8 @@
                     "slackId": "U2VFNHF0R",
                     "slackUsername": "ngeorgieva",
                     "slackEmail": "nat.m.georgieva@gmail.com",
+                    "smallImg": "https://secure.gravatar.com/avatar/436ffdadb2d502dd38f7d6a0fb023b30.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0024-32.png",
+                    "largeImg": "https://secure.gravatar.com/avatar/436ffdadb2d502dd38f7d6a0fb023b30.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0024-192.png",
                     "firstName": "Nataliya",
                     "lastName": "Georgieva",
                     "githubUsername": "ngeorgieva",
@@ -335,7 +343,7 @@
                     "githubFollowers": 0,
                     "meta": {
                         "revision": 0,
-                        "created": 1480525949884,
+                        "created": 1480581122884,
                         "version": 0
                     },
                     "$loki": 19
@@ -344,6 +352,8 @@
                     "slackId": "U2WGTCVUY",
                     "slackUsername": "emil.ruzhenov",
                     "slackEmail": "emil.ruzhenov@gmail.com",
+                    "smallImg": "https://secure.gravatar.com/avatar/5cdddaa9e029582b1400252510129786.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0017-32.png",
+                    "largeImg": "https://secure.gravatar.com/avatar/5cdddaa9e029582b1400252510129786.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0017-192.png",
                     "firstName": "Emil",
                     "lastName": "Ruzhenov",
                     "githubUsername": "emilrr",
@@ -359,6 +369,12 @@
                         {
                             "name": "Axway-Final-Project",
                             "url": "https://api.github.com/repos/emilrr/Axway-Final-Project",
+                            "description": null,
+                            "language": "JavaScript"
+                        },
+                        {
+                            "name": "desert-monsters-blog-service",
+                            "url": "https://api.github.com/repos/emilrr/desert-monsters-blog-service",
                             "description": null,
                             "language": "JavaScript"
                         },
@@ -402,10 +418,55 @@
                     "githubFollowers": 1,
                     "meta": {
                         "revision": 0,
-                        "created": 1480525950005,
+                        "created": 1480581122946,
                         "version": 0
                     },
                     "$loki": 20
+                },
+                {
+                    "slackId": "U2VT0282G",
+                    "slackUsername": "mvasilev",
+                    "slackEmail": "mvasilev@axway.com",
+                    "smallImg": "https://secure.gravatar.com/avatar/87f415341932d6f1f29099737239aeff.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0025-32.png",
+                    "largeImg": "https://secure.gravatar.com/avatar/87f415341932d6f1f29099737239aeff.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0025-192.png",
+                    "firstName": "Marin",
+                    "lastName": "Vasilev",
+                    "githubUsername": "marinvvasilev",
+                    "githubAvatar": "https://avatars.githubusercontent.com/u/17739230?v=3",
+                    "location": "Bulgaria, Sofia",
+                    "githubRepos": [
+                        {
+                            "name": "appc.googlesearch",
+                            "url": "https://api.github.com/repos/marinvvasilev/appc.googlesearch",
+                            "description": "Google custom search connector for Appcelerator Arrow",
+                            "language": "JavaScript"
+                        },
+                        {
+                            "name": "appc.oracledb",
+                            "url": "https://api.github.com/repos/marinvvasilev/appc.oracledb",
+                            "description": "Oracle Connector",
+                            "language": "JavaScript"
+                        },
+                        {
+                            "name": "appcelerator-githubauth",
+                            "url": "https://api.github.com/repos/marinvvasilev/appcelerator-githubauth",
+                            "description": "An authentication module for Appcelerator Arrow",
+                            "language": null
+                        },
+                        {
+                            "name": "appcelerator-saml",
+                            "url": "https://api.github.com/repos/marinvvasilev/appcelerator-saml",
+                            "description": "SAML Authentication for Appcelerator Arrow",
+                            "language": "JavaScript"
+                        }
+                    ],
+                    "githubFollowers": 5,
+                    "meta": {
+                        "revision": 0,
+                        "created": 1480581122953,
+                        "version": 0
+                    },
+                    "$loki": 21
                 }
             ],
             "idIndex": [
@@ -428,7 +489,8 @@
                 17,
                 18,
                 19,
-                20
+                20,
+                21
             ],
             "binaryIndices": {},
             "constraints": null,
@@ -450,7 +512,7 @@
                 "ttlInterval": null,
                 "daemon": null
             },
-            "maxId": 20,
+            "maxId": 21,
             "DynamicViews": [],
             "events": {
                 "insert": [

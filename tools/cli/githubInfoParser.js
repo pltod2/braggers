@@ -1,15 +1,20 @@
 var github = require('../../integration/github');
 
-module.exports = function (element, callback) {
-    function user(slackId, slackUsername, slackEmail) {
-        this.slackId = slackId;
-        this.slackUsername = slackUsername;
-        this.slackEmail = slackEmail;
-    }
+function User(slackId, slackUsername, slackEmail, smallImg, largeImg, fn, ln) {
+    this.slackId = slackId;
+    this.slackUsername = slackUsername;
+    this.slackEmail = slackEmail;
+    this.smallImg = smallImg;
+    this.largeImg = largeImg;
+    this.firstName = fn;
+    this.lastName = ln;
+}
 
-    var currentUser = new user(element.id, element.name, element.profile.email);
-    currentUser.firstName = element.profile.first_name;
-    currentUser.lastName = element.profile.last_name;
+
+module.exports = function (element, callback) {
+    var currentUser = new User(element.id, element.name, element.profile.email, element.profile.image_32, element.profile.image_192, element.profile.first_name, element.profile.last_name);
+    // currentUser.firstName = element.profile.first_name;
+    // currentUser.lastName = element.profile.last_name;
     github.getUserByEmail(element.profile.email, processGithubData);
 
     function processGithubData(value) {

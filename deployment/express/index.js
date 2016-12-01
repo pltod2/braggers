@@ -15,9 +15,8 @@ require('../../api')((api) => {
     res.send(api.getUsers());
   });
 
-  app.post('/' + endpoints.getUserByIdEndpoint, function (req, res) {
-    console.log(req.body.user);
-    res.send(api.getUserById(req.body.user));
+  app.get('/' + endpoints.getUserByIdEndpoint, function (req, res) {
+    res.send(api.getUserById(req.params.userId));
   });
 
   app.listen(8000, function () {

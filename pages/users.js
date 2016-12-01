@@ -12,7 +12,6 @@ export default class extends React.Component {
 
   //Note that thanks to next.js users is exposed in props
   static async getInitialProps (ctx) {
-    //TODO getUsers comes from api and is common for server as well
     const users = await Requester.get(endpoints.getUsersEndpoint);
     return {
       users: users,
@@ -21,7 +20,6 @@ export default class extends React.Component {
   }
 
   render () {
-    console.log(this.props.users);
     return (
       <div>
       <Head />
@@ -48,11 +46,11 @@ export default class extends React.Component {
             {
                 this.props.users.map( (user, i) => (
                     <tr key={i}>
-                        <td>{ user.firstName + ' ' + user.lastName }</td>
+                        <td><img src={ user.smallImg} /> { user.firstName + ' ' + user.lastName }</td>
                         <td>{ user.slackUsername }</td>
                         <td>{ user.slackEmail }</td>
                         <td>
-                          <button className="button button-outline" onClick={this.props.loginHandler} name="startFreeBTN" type="submit"><Link href={`/account?id=${user.slackId}`}>Details</Link></button>
+                          <Link href={`/account?id=${user.slackId}`}><button className="button button-outline" onClick={this.props.loginHandler} name="startFreeBTN" type="submit">Details</button></Link>
                         </td>                        
                     </tr>
                 ))

@@ -1,5 +1,6 @@
 module.exports = {
-    getUsersEndpoint: 'getUsers',
-    getUserByIdEndpoint: 'getUserById'
+    getUsersEndpoint: 'users',
+    getUserByIdEndpoint: 'users/:userId',
+    getUserByIdEndpointClient: 'users/'
 }
 

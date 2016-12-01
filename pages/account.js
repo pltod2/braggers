@@ -2,108 +2,65 @@ import React from 'react'
 import { style } from 'next/css'
 import * as  _ from 'lodash'
 import MyEditor from '../component/editor/editor';
-import Head from '../component/Head';
 const ReactMarkdown = require('react-markdown');
-import 'isomorphic-fetch'
+import Head from '../component/Head';
+import Menu from '../component/Menu';
+const Requester = require('../integration/requester');
+const endpoints = require('../api/endpoints');
 
-export default ({ url: { query: { id } } }) => {
 
-  async function getUser() { 
-    const res = await fetch('http://localhost:8000/getUserById', {
-      method: "POST",
-      headers: {
-        'Accept': 'application/json, text/plain, text/html',
-        'Content-Type': 'application/json; charset=utf-8'
-      },      
-      body: JSON.stringify({ user: id }) 
-    });
-    console.log(res);
-  }
+export default class extends React.Component {
 
-  getUser(); 
-  
-  // const user = await res.json();
-  // return { item: user }
-
-  const styles = {
-    main: {
-      padding: '50px'
-    },
-
-    header: {
-      font: '15px Monaco',
-      textAlign: 'center'
-    },
-
-    panel: {
-      float: 'right',
-      marginRight: '140px',
-      width: '200px'
-    },
-
-    singlePhoto: {
-      border: '1px solid #999',
-      width: '300px',
-      height: '300px',
-      float: 'left'
-    },
-
-    heading: {
-      font: '15px Monaco'
-    }
-  }
-
-  class Account extends React.Component {
-
-    constructor(props) {
-        super(props);
-        this.state = {
-          input: ''  
-        }
+  constructor(props) {
+    super(props);
+    this.state = {
+      input: ''  
     }    
-
-    onChangeHandler = (newValue) => {
-      this.setState({
-        input: newValue
-      })
-    }
-    
-    render () {
-
-                      //   <img src={ item.githubAvatar} alt={item.firstName} width={200} height={200} />
-                      // </div>
-                      // <div className="col-xs">
-                      //   <h1 className={style(styles.heading)}>
-                      //       Real Name: { item.firstName }
-                      //     <br/>
-                      //   </h1>
-
-      return (
-          <div>
-            <Head />
-                  <div>
-                    <div className="row">
-                      <div className="col-xs">
-                        <h3> AXWAY ACADEMY SOCIAL NETWORK </h3>  
-                      </div>
-                    </div>
-                    <div className="row">
-                      <div className="col-xs">
-
-                      </div>
-                    </div>  
-                    <div className="row">
-                      <div className="col-xs-6">
-                          <MyEditor onChangeHandler={this.onChangeHandler}/>
-                          <ReactMarkdown source={this.state.input} />
-                      </div>
-                    </div>        
-                  </div>
-          </div>            
-        )
-      }
   }
 
-  return <Account />
- 
+  static async getInitialProps (ctx) {
+    const user = await Requester.get(endpoints.getUserByIdEndpointClient + ctx.query.id);
+    return {
+      currentUrl: ctx.pathname,
+      user: user[0]
+    }
+  }
+  
+  onChangeHandler = (newValue) => {
+    this.setState({
+      input: newValue
+    })
+  }
+      
+  render () {
+        return (
+            <div>
+              <Head />
+              <Menu currentUrl={this.props.currentUrl} />
+              <div className="row">
+                <div className="column">
+                  <img style={{marginLeft: "20px"}} src={ this.props.user.largeImg} />
+                  <div style={{marginLeft: "20px"}}>
+                    <h3 > { this.props.user.firstName + ' ' + this.props.user.lastName } </h3>
+                    <h6> Social Index: { this.props.user.githubFollowers || 'Not evaluated yet!' } </h6>
+                  </div> 
+                </div>
+                <div className={"column column-75 " + style(styles.ed)} >
+                  <h5 className={style(styles.pcolor)}> What's happening? </h5>
+                  <MyEditor onChangeHandler={this.onChangeHandler}/>
+                </div>
+              </div>              
+              <ReactMarkdown source={this.state.input} />        
+            </div>          
+        )
+  }
+}
+
+const styles = {
+  ed: {
+    marginRight: '20px'
+  },
+  pcolor: {
+    color: '#9b4dca'
+  }    
 }

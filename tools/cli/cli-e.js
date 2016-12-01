@@ -1,6 +1,5 @@
 var slack = require('../../integration/slack');
 var github = require('../../integration/github');
-var writer = require('./reader-writer');
 var githubInfoParser = require('./githubInfoParser');
 
 require('../../integration/loki')({

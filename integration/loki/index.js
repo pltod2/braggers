@@ -51,8 +51,8 @@ module.exports = function(options) {
         return db.getCollection('users').data;
     }
 
-    function getUserById() {
-        return db.getCollection('users').data;
-    }    
+    function getUserById(id) {
+        return db.getCollection('users').find( {'slackId': id} );
+    } 
         
 };
