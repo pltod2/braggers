@@ -13,4 +13,6 @@ console.log(
 program.version('0.0.1')
     .command('e', 'Extracts all users from a Slack channel and gets their details from Github')
     .command('u', 'Updates the database with new users from Slack.')
+    .command('exportMongoDb','Exports data from local database to MongoDB.')
+    .command('backup','Backup data.')
     .parse(process.argv);
