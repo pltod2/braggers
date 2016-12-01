@@ -1,7 +1,10 @@
 tokens.js
+tokens.json
 .DS_Store
 *.bundle.js 
-.vscode 
+.vscode
+gen
+.next 
 
 
 # Logs
