@@ -22,6 +22,9 @@ export default class MyHead extends React.Component {
                 <link rel="stylesheet" href="../static/css/font-awesome.min.css"/>
                 <link rel="stylesheet" href="../static/css/milligram.min.css"/>
                 <link rel="stylesheet" href="../static/css/plugin.css"/>
+                <link rel="stylesheet" href="../static/css/sideplugin.css"/>
+                <link rel="stylesheet" href="../static/css/emojiplugin.css"/>
+                <link rel="stylesheet" href="../static/css/stickerplugin.css"/>
             </Head>
     }
 }

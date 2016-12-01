@@ -29,7 +29,6 @@ const styles = {
 const links = [
   { href: '/', text: 'Home' },
   { href: '/users', text: 'Users' },
-  { href: '/account', text: 'Account' },
   { href: '/forum', text: 'Forum' },
   { href: '/sign-off', text: 'Sign Off' }
 ]

@@ -2,45 +2,83 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {EditorState, convertToRaw} from 'draft-js';
 import Editor from 'draft-js-plugins-editor';
+import { fromJS } from 'immutable';
 import { mdToDraftjs, draftjsToMd } from 'draftjs-md-converter';
 import createMentionPlugin, { defaultSuggestionsFilter } from 'draft-js-mention-plugin';
+import createSideToolbarPlugin from 'draft-js-side-toolbar-plugin';
+import createStickerPlugin from 'draft-js-sticker-plugin';
+import createEmojiPlugin from 'draft-js-emoji-plugin';
 
 const mentionPlugin = createMentionPlugin();
+const sideToolbarPlugin = createSideToolbarPlugin();
 const { MentionSuggestions } = mentionPlugin;
-const plugins = [mentionPlugin];
-import { fromJS } from 'immutable';
+const { SideToolbar } = sideToolbarPlugin;
+const emojiPlugin = createEmojiPlugin();
+const { EmojiSuggestions } = emojiPlugin;
+
+const stickers = fromJS({
+  data: {
+    'b3aa388f-b9f4-45b0-bba5-d92cf2caa48b': {
+      id: 'b3aa388f-b9f4-45b0-bba5-d92cf2caa48b',
+      url: 'https://www.draft-js-plugins.com/images/unicorn-1.png',
+    },
+    'adec3f13-823c-47c3-b4d1-be4f68dd9d6d': {
+      id: 'adec3f13-823c-47c3-b4d1-be4f68dd9d6d',
+      url: 'https://www.draft-js-plugins.com/images/unicorn-6.png',
+    },
+  },
+});
+
+const stickerPlugin = createStickerPlugin({ stickers });
+const plugins = [mentionPlugin, sideToolbarPlugin, stickerPlugin, emojiPlugin];
+const StickerSelect = stickerPlugin.StickerSelect;
 
 const mentions = fromJS([
   {
-    name: 'Matthew Russell',
-    link: 'https://twitter.com/mrussell247',
-    avatar: 'https://pbs.twimg.com/profile_images/517863945/mattsailing_400x400.jpg',
+    name: 'Milan Zarkov',
+    avatar: 'https://secure.gravatar.com/avatar/fa2eaf8896d6a96d3b47c61b75e361ca.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0016-32.png',
   },
   {
-    name: 'Julian Krispel-Samsel',
-    link: 'https://twitter.com/juliandoesstuff',
-    avatar: 'https://pbs.twimg.com/profile_images/477132877763579904/m5bFc8LF_400x400.png',
+    name: 'Viktor Chobanov',
+    avatar: 'https://avatars.slack-edge.com/2016-11-08/101016750193_7a187c57304e78e475c4_32.jpg',
   },
   {
-    name: 'Jyoti Puri',
-    link: 'https://twitter.com/jyopur',
-    avatar: 'https://pbs.twimg.com/profile_images/705714058939359233/IaJoIa78_400x400.jpg',
+    name: 'Emil Ruzhenov',
+    avatar: 'https://secure.gravatar.com/avatar/5cdddaa9e029582b1400252510129786.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0017-32.png',
   },
   {
-    name: 'Max Stoiber',
-    link: 'https://twitter.com/mxstbr',
-    avatar: 'https://pbs.twimg.com/profile_images/763033229993574400/6frGyDyA_400x400.jpg',
+    name: 'Marin Vasilev',
+    avatar: 'https://secure.gravatar.com/avatar/87f415341932d6f1f29099737239aeff.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0025-32.png',
   },
   {
-    name: 'Nik Graf',
-    link: 'https://twitter.com/nikgraf',
-    avatar: 'https://pbs.twimg.com/profile_images/535634005769457664/Ppl32NaN_400x400.jpeg',
+    name: 'Alexandrina Karakehayova',
+    avatar: 'https://secure.gravatar.com/avatar/b45566c68a01f81e850931106d4827f2.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0011-32.png',
   },
   {
-    name: 'Pascal Brandt',
-    link: 'https://twitter.com/psbrandt',
-    avatar: 'https://pbs.twimg.com/profile_images/688487813025640448/E6O6I011_400x400.png',
+    name: 'Meglena Lukanova',
+    avatar: 'https://secure.gravatar.com/avatar/5a7895f3dc000b72d98e0065634b952e.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0021-32.png',
   },
+  {
+    name: 'Nataliya Georgieva',
+    avatar: 'https://secure.gravatar.com/avatar/436ffdadb2d502dd38f7d6a0fb023b30.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0024-32.png',
+  },
+  {
+    name: 'Guldjan Kupen',
+    avatar: 'https://avatars.slack-edge.com/2016-10-28/97542896037_0c5b7ec9c48a7c1d6e16_32.jpg',
+  },
+  {
+    name: 'Plamen Todorov',
+    avatar: 'https://secure.gravatar.com/avatar/bd494533790f49d8b21ef4e93d3bd470.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0017-32.png',
+  },
+  {
+    name: 'Vladimir Trifonov',
+    avatar: 'https://avatars.slack-edge.com/2016-11-04/99884227040_b7406b24a539ad32fb4f_32.png',
+  },
+  {
+    name: 'Toshko Popov',
+    avatar: 'https://secure.gravatar.com/avatar/bce68aed35986cf14e648a58de4229db.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0012-32.png',
+  }
+  
 ]);
 
 const styles = {
@@ -87,7 +125,8 @@ export default class MyEditor extends React.Component {
 
   render() {
     const {editorState} = this.state;
-    return <div style={styles.editor} onClick={this.focus}>
+    return <div> 
+          <div style={styles.editor} onClick={this.focus}>
             <Editor 
               editorState={editorState} 
               onChange={this.onChange} 
@@ -98,6 +137,13 @@ export default class MyEditor extends React.Component {
               suggestions={this.state.suggestions}
               onAddMention={this.onAddMention}
             />
+            <SideToolbar />
+            <EmojiSuggestions />
           </div>
+          <div>
+            <StickerSelect editor={this} />
+          </div>
+          <button className="button float-right" type="submit">Post your statement</button>            
+        </div>
   }
 }
