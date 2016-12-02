@@ -1,0 +1,1 @@
+Run in the root of the project 'npm run cli initDB' to get data file in this folder.
