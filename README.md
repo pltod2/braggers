@@ -2,31 +2,9 @@
 
 ![Academy Poster](static/img/braggers_logo.png)
 
-Allow users that praticipate in trainings to collaborate with their lectors and peers. 
 
-Brag and help the best ideas happen faster!
+One Project For The First Edition Of Axway's Node.js Training
 
+Experimenting with following technologies:
 
-# Platform In Brief
-
-Platform for doing hands-on trainings. 
-
-Facilitate any training endeavors.
-
-Catalog with user profiles:
-
-> github repos
-
-> taken trainings etc.
-
-> user activity stream
-
-Collaboration between students
-
-Social aspect:
-
-> blog posts 
-
-> creation of categories / topics / forum posts  
-
-
+LokiJS / React / Webpack / Babel / Next.js / Fetch / Slack / Github / Medium / Express / Passswordless / Nodemailer / Commander / Draft.js / Octonode / Node.js / Markdown / CSS / JSX
