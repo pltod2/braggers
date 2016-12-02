@@ -13,8 +13,6 @@ function User(slackId, slackUsername, slackEmail, smallImg, largeImg, fn, ln) {
 
 module.exports = function (element, callback) {
     var currentUser = new User(element.id, element.name, element.profile.email, element.profile.image_32, element.profile.image_192, element.profile.first_name, element.profile.last_name);
-    // currentUser.firstName = element.profile.first_name;
-    // currentUser.lastName = element.profile.last_name;
     github.getUserByEmail(element.profile.email, processGithubData);
 
     function processGithubData(value) {

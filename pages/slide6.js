@@ -4,6 +4,7 @@ import Head from '../component/Head';
 import css from 'next/css'
 import Menu2 from '../component/Menu2';
 
+
 const styles = {
   header: css({
     display: 'flex',
@@ -18,30 +19,19 @@ export default class App extends React.Component {
         super(props);
     }
 
-  static async getInitialProps (ctx) {
-    return {
-      currentUrl: ctx.pathname
-    }
-  }  
-
     render() {
         return <div>
-            
             <Head />
             <Menu2 currentUrl={this.props.currentUrl} />
 
             <div className={styles.header + " row"}>
                 <div className="column column-50 column-offset-25">
-                    <h3>API</h3>
-                    <h3>COMPONENTS</h3>
-                    <h3>DATA</h3>
-                    <h3>INTEGRATION (or THIRD-PARTY)</h3>
-                    <h3>PAGES (or Routes)</h3>
-                    <h3>STATIC RESOURCES</h3>
-                    <h3>DEPLOYMENT</h3>
+                    <h3>Code in the form of well defined reusable pieces with proper granularity. You are well prepared to ship it either in the form of #microservices or as #monolith depending on the use case.</h3>
+                    <br/>    
+                    <h3>Think about DevOps Engineers! They are nice guys.</h3>                    
                 </div>
             </div>
-
+        
         </div>
 
     }

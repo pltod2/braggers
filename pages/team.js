@@ -4,12 +4,13 @@ import Head from '../component/Head';
 import css from 'next/css'
 import Menu2 from '../component/Menu2';
 import { style } from 'next/css'
+const braggersLogo = '../static/img/braggers_logo.png';
 
 const styles = {
   header: css({
     display: 'flex',
     marginBottom: 20,
-    marginTop: 150
+    marginTop: 50
   }),
   pcolor: {
     color: '#9b4dca'
@@ -37,9 +38,18 @@ export default class App extends React.Component {
 
             <div className={styles.header + " row"}>
                 <div className="column column-50 column-offset-25">
-                    MAIN GOALS
-                    <h2>ARCHITECTURE THAT ALLOWS EASY DEPLOYMENT ON DIFFERENT INFRASTRUCTURES</h2>
-                    <h2 className={style(styles.pcolor)}>ARCHITECTURE THAT ALLOWS EASY DATA INTEGRATION</h2>
+                    <img src={braggersLogo} />
+                    <br/><br/>
+                    <h2 className={style(styles.pcolor)}>ALEKSANDRINA</h2>
+                    <h4 className={style(styles.pcolor)}>SECURITY ENGINEER</h4>
+                    <br/><br/>
+                    <h2 className={style(styles.pcolor)}>NATALIA</h2>
+                    <h4 className={style(styles.pcolor)}>TOOLS ENGINEER</h4>
+                    <br/><br/>
+                    <h2 className={style(styles.pcolor)}>MEGLENA</h2>
+                    <h4 className={style(styles.pcolor)}>DATABASE ENGINEER</h4>
+                    <br/><br/>
+                    <h2 >PLAMEN - TEAM LEAD</h2>
                 </div>
             </div>
 

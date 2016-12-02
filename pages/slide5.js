@@ -32,13 +32,9 @@ export default class App extends React.Component {
 
             <div className={styles.header + " row"}>
                 <div className="column column-50 column-offset-25">
-                    <h3>API</h3>
-                    <h3>COMPONENTS</h3>
-                    <h3>DATA</h3>
-                    <h3>INTEGRATION (or THIRD-PARTY)</h3>
-                    <h3>PAGES (or Routes)</h3>
-                    <h3>STATIC RESOURCES</h3>
-                    <h3>DEPLOYMENT</h3>
+                    <h3>EACH ROUTE IS AN APP</h3>
+                    <h3>STATE AS SHARED RESPONSIBILITY</h3>
+                    <h3>SERVER - CLIENT RENDERING BALANCE</h3>
                 </div>
             </div>
 
